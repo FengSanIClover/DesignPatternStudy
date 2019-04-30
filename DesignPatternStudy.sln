@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational", "Creational", "{00DC8BDB-315C-4601-B950-633B3DD55D03}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FactoryMethodPattern", "FactoryMethodPattern", "{CC293F12-8DCB-4631-B0D1-4A75ED2B17E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodPattern.Main", "Creational\FactoryMethodPattern\FactoryMethodPattern.Main\FactoryMethodPattern.Main.csproj", "{F3C9E09C-F611-4FB1-95D8-BDCE28DE2353}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3C9E09C-F611-4FB1-95D8-BDCE28DE2353}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3C9E09C-F611-4FB1-95D8-BDCE28DE2353}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3C9E09C-F611-4FB1-95D8-BDCE28DE2353}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3C9E09C-F611-4FB1-95D8-BDCE28DE2353}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CC293F12-8DCB-4631-B0D1-4A75ED2B17E5} = {00DC8BDB-315C-4601-B950-633B3DD55D03}
+		{F3C9E09C-F611-4FB1-95D8-BDCE28DE2353} = {CC293F12-8DCB-4631-B0D1-4A75ED2B17E5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51D62FA9-26CD-4A9E-BF5B-D3A20D4F8892}
+	EndGlobalSection
+EndGlobal
