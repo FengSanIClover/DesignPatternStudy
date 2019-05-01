@@ -6,7 +6,7 @@
 	可以解決中大型系統已知的耦合問題，抽象出更理想的設計，讓程式碼更容易維護並且維持軟體的可擴充性。
 
 3.程式設計的 5 +1 項基本原則 SOLID +L
-	1. Single Responsibility Principle(SRP) 單一職責
+	1. Single Responsibility Principle(SRP) 單一職責原則
 
 	2. Open/Close Principle (OCP) 開放/封閉原則
 
