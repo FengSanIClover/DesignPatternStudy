@@ -1,0 +1,35 @@
+1.什麼是設計模式
+	所謂的設計模式是如何解決一些重複性問題的經驗累積。
+
+2.為什麼要用設計模式
+	對於團隊工作來說，可以方便系統設計師規劃後交付實作，對於系統耦合來說，
+	可以解決中大型系統已知的耦合問題，抽象出更理想的設計，讓程式碼更容易維護並且維持軟體的可擴充性。
+
+3.程式設計的 5 +1 項基本原則 SOLID +L
+	1. Single Responsibility Principle(SRP) 單一職責
+
+	2. Open/Close Principle (OCP) 開放/封閉原則
+
+	3. Liskov Substitution Principle(LSP) 里氏替換原則
+
+	4. Interface Segregation Principle(ISP) 介面隔離原則
+
+	5. Dependency Inversion Principle (DIP) 依賴反轉原則
+
+	6. Least Knowledge Principle (LKP) 最小知識原則(迪米特法則)
+
+4.設計模式根據其目的（Purpose)分成 3 大類
+	1.Creational 創建型模式
+		如何有效率的產生、管理與操作物件，一直都是值得討論的課題， Creational 分類下的模式即與物件的建立相關。
+
+	2.Structural 結構型模式
+		如何設計物件之間的靜態結構，如何完成物件之間的繼承、實現與依賴關係，
+		這關乎著系統設計出來是否健壯（robust)：像是易懂、易維護、易修改、耦合度低等等議題。
+		Structural 分類下的模式給出了在不同場合下所適用的各種物件關係結構。
+
+	3.Behavioral 行為型模式
+		物件之間的合作行為構成了程式最終的行為，物件之間若有設計良好的行為互動，不僅使得程式執行時更有效率，
+		更可以讓物件的職責更為清晰、整個程式的動態結構（像是物件調度）更有彈性。
+
+	參考資料 https://read01.com/zh-tw/e5M6d.html#.XMm53-gzZPY
+			 https://openhome.cc/Gossip/DesignPattern/

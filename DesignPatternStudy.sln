@@ -10,6 +10,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodPattern.Main", "Creational\FactoryMethodPattern\FactoryMethodPattern.Main\FactoryMethodPattern.Main.csproj", "{F3C9E09C-F611-4FB1-95D8-BDCE28DE2353}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SOLID", "SOLID", "{01D794BC-BCEB-4808-9DF0-A1C240A112C7}"
+	ProjectSection(SolutionItems) = preProject
+		Introduce.txt = Introduce.txt
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleResponsibilityPrinciple", "SOLID\SingleResponsibilityPrinciple\SingleResponsibilityPrinciple.csproj", "{37E323C7-1FF9-4EFE-A954-9EB5A11632BE}"
 EndProject
@@ -29,6 +32,11 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Implent_DIP", "SOLID\Implent\Implent_DIP\Implent_DIP.csproj", "{B891AA33-92F3-4236-8F3B-726292DB4FB7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeastKnowledgePrinciple", "SOLID\LeastKnowledgePrinciple\LeastKnowledgePrinciple.csproj", "{3CA1C109-F62A-474A-BEFF-64F29FE36538}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DesignPatternIntroduce", "DesignPatternIntroduce", "{6036F39D-8B30-4ED5-8BE3-FB292F6830F7}"
+	ProjectSection(SolutionItems) = preProject
+		DesignPatternIntroduce.txt = DesignPatternIntroduce.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
