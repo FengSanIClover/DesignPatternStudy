@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DADE9429-A945-450B-AA52-6ABF48EF333D}</ProjectGuid>
+    <ProjectGuid>{B891AA33-92F3-4236-8F3B-726292DB4FB7}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Implent_DIP</RootNamespace>
     <AssemblyName>Implent_DIP</AssemblyName>

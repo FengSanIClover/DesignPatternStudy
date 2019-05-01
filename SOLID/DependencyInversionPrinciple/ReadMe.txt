@@ -16,7 +16,7 @@ IAvengers : 設定攻擊方法和防禦方法的介面
 DoctorStrange : 繼承 IAvengers 介面並實作方法的類別
 Hulk : 繼承 IAvengers 介面並實作方法的類別
 Task : 實作 依賴反轉原則 依賴注入原則 的類別
-Implent_DIP 資料夾 -> Implent_DIP : 實作 依賴反轉原則 依賴注入原則 的專案
+Implent 資料夾 -> Implent_DIP : 實作 依賴反轉原則 依賴注入原則 的專案
 
 
 參考資料 https://ithelp.ithome.com.tw/articles/10192844
