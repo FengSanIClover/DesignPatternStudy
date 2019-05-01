@@ -9,6 +9,7 @@
 IModem : 未實現單一職責原則的介面
 IConnection : 實現單一職責原則後的介面之一
 IDataChannel : 實現單一職責原則後的介面之一
+Modem : 繼承介面並實作方法的類別
 
 優點
 遵守 SRP 的好處如下：
