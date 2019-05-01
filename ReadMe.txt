@@ -1,0 +1,1 @@
+Implent_DIP 資料夾 -> Implent_DIP : 實作 依賴反轉原則 依賴注入原則 的專案
