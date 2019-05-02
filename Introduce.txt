@@ -1,4 +1,4 @@
-程式設計的 5 +1 項基本原則
+程式設計的 6 項基本原則 SOLID +L
 1. Single Responsibility Principle(SRP) 單一職責原則
 
 2. Open/Close Principle (OCP) 開放/封閉原則
@@ -9,4 +9,4 @@
 
 5. Dependency Inversion Principle (DIP) 依賴反轉原則
 
-6. Least Knowledge Principle (LKP) 最小知識原則(迪米特法則)
+6. Least Knowledge Principle (LKP) 最少知識原則(迪米特法則)

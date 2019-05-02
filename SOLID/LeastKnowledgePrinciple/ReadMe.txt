@@ -1,12 +1,18 @@
-﻿Least Knowledge Principle (LKP) 最小知識原則(迪米特法則)
+﻿Least Knowledge Principle (LKP) 最少知識原則(迪米特法則)
 (
   Each unit should have only limited knowledge about other units : 
   only units "closely" related to the current unit.
+
+  Only talk to your immediate friends.
 )
 (
  每個單元應該對其他單元只能有有限的知識：
  只了解跟目前單元比較親近的單元。
+
+ 兩物件之間的耦合稱為朋友關係，包含組合、聚合、依賴等，而迪米特法則要求只與直接的朋友溝通。
 )
+
+迪米特法則的核心概念是解耦，為了類別之間能高內聚、低耦合，達到類別可重複使用。
 
 高階模組不應該知道低階模組的內部如何運作。
 低階模組不應該暴露內部物件，不應該暴露實踐細節，應僅提供方法給高階模組使用。
@@ -31,3 +37,4 @@ Train Wreck
 
 參考資料 https://ithelp.ithome.com.tw/articles/10193110
 		 https://oomusou.io/oop/oop-demeter/
+		 http://glj8989332.blogspot.com/2018/04/design-pattern-law-of-demeter.html
