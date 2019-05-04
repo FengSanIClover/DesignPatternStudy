@@ -19,11 +19,11 @@
 兩種安全的實現開閉原則的設計模式是：
 Strategy pattern（策略模式)，Template Methord（模版方法模式）。
 
-NationalTaxAdministration : 尚未實現開放/封閉原則的類別
-INotify : 抽離方法的介面
-Letter : 繼承介面實作方法的類別 
-TextMessage : 繼承介面實作方法的類別 
-ReNationalTaxAdministration : 實現開放/封閉原則的類別
+IAvengers : 定義攻擊方法的介面
+Thor : 繼承介面實作方法的類別，為此範例的父類別
+ThorWithStormbreaker : 繼承父類別，覆寫攻擊方法，來擴充新的攻擊方法
+Implent 資料夾 -> Implent_OCP : 實作 開放/封閉原則 的範例專案
+
 
 
 優點
