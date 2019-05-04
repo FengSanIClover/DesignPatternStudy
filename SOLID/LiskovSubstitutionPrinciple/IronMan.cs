@@ -7,24 +7,16 @@ using System.Threading.Tasks;
 namespace LiskovSubstitutionPrinciple
 {
     /// <summary>
-    /// 鋼鐵人類別繼承復仇者介面
+    /// 鋼鐵人類別，繼承復仇者聯盟介面，並實作任務方法
     /// </summary>
     public class IronMan : IAvengers
     {
         /// <summary>
-        /// 實作攻擊
+        /// 實作執行任務
         /// </summary>
-        public void Attack()
+        public void ExecutiveTask()
         {
-            Console.WriteLine("鋼鐵人發射光束攻擊");
-        }
-
-        /// <summary>
-        /// 實作防禦
-        /// </summary>
-        public void Defense()
-        {
-            Console.WriteLine("鋼鐵人飛走了");
+            Console.WriteLine("鋼鐵人出發執行任務\n");
         }
     }
 }

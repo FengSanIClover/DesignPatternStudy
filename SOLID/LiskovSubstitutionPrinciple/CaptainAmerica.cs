@@ -7,24 +7,16 @@ using System.Threading.Tasks;
 namespace LiskovSubstitutionPrinciple
 {
     /// <summary>
-    /// 美國隊長類別繼承復仇者
+    /// 美國隊長類別，繼承復仇者聯盟介面，並實作任務方法
     /// </summary>
     public class CaptainAmerica : IAvengers
     {
         /// <summary>
-        /// 實作攻擊
+        /// 實作執行任務
         /// </summary>
-        public void Attack()
+        public void ExecutiveTask()
         {
-            Console.WriteLine("美國隊長運用盾牌攻擊");
-        }
-
-        /// <summary>
-        /// 實作防禦
-        /// </summary>
-        public void Defense()
-        {
-            Console.WriteLine("美國隊長運用盾牌防守");
+            Console.WriteLine("美國隊長出發執行任務\n");
         }
     }
 }
