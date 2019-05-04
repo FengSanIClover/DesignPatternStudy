@@ -7,18 +7,23 @@ using System.Threading.Tasks;
 namespace SingleResponsibilityPrinciple
 {
     /// <summary>
-    /// 單一職責(連線)
+    /// 負責餐廳外場服務的介面
     /// </summary>
-   public interface IConnection
+    public interface IOuterRestaurantService
     {
         /// <summary>
-        /// 撥號
+        /// 點餐
         /// </summary>
-        void Dial();
+        void Order();
 
         /// <summary>
-        /// 掛斷
+        /// 清理桌面
         /// </summary>
-        void Hangup();
+        void CleanTable();
+
+        /// <summary>
+        /// 結帳
+        /// </summary>
+        void CheckOut();
     }
 }

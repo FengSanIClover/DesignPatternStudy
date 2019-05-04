@@ -4,16 +4,17 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{37E323C7-1FF9-4EFE-A954-9EB5A11632BE}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SingleResponsibilityPrinciple</RootNamespace>
-    <AssemblyName>SingleResponsibilityPrinciple</AssemblyName>
+    <ProjectGuid>{0367FF54-C9FE-45B6-8F1E-E3A95C1A5010}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Implent_SRP</RootNamespace>
+    <AssemblyName>Implent_SRP</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -23,6 +24,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -41,16 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="InsideRestaurantService.cs" />
-    <Compile Include="InsideWaiter.cs" />
-    <Compile Include="IOuterRestaurantService.cs" />
-    <Compile Include="IRestaurantService.cs" />
-    <Compile Include="OuterWaiter.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UserfulWaiter.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ReadMe.txt" />
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\SingleResponsibilityPrinciple\SingleResponsibilityPrinciple.csproj">
+      <Project>{37E323C7-1FF9-4EFE-A954-9EB5A11632BE}</Project>
+      <Name>SingleResponsibilityPrinciple</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

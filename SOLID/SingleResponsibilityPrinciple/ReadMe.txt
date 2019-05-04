@@ -6,10 +6,14 @@
 設計時要注意功能不能切得太細，造成過度設計(over design)
 怎麼規劃一個類別責任，要視實際情況而定。
 
-IModem : 未實現單一職責原則的介面
-IConnection : 實現單一職責原則後的介面之一
-IDataChannel : 實現單一職責原則後的介面之一
-Modem : 繼承介面並實作方法的類別
+IRestaurantService : 未實現單一職責原則的介面
+InsideRestaurantService : 實現單一職責原則後的介面之一
+IOuterRestaurantService : 實現單一職責原則後的介面之一
+UserfulWaiter : 繼承未實現單一職責原則的介面並實作方法的類別
+InsideWaiter : 繼承實現單一職責原則後的介面並實作方法的類別
+OuterWaiter : 繼承實現單一職責原則後的介面並實作方法的類別
+Implent 資料夾 -> Implent_SRP : 實作 單一職責原則 的範例專案
+
 
 優點
 遵守 SRP 的好處如下：

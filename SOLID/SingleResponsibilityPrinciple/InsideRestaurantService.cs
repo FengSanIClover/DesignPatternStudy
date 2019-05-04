@@ -7,18 +7,18 @@ using System.Threading.Tasks;
 namespace SingleResponsibilityPrinciple
 {
     /// <summary>
-    /// 單一職責(數據處理)
+    /// 負責餐廳內場服務的介面
     /// </summary>
-   public interface IDataChannel
+    public interface InsideRestaurantService
     {
         /// <summary>
-        /// 發送資料
+        /// 做餐點
         /// </summary>
-        void Send();
+        void Cook();
 
         /// <summary>
-        /// 接收資料
+        /// 備料
         /// </summary>
-        void Receive();
+        void Preparation();
     }
 }
