@@ -19,6 +19,7 @@
 兩種安全的實現開閉原則的設計模式是：
 Strategy pattern（策略模式)，Template Methord（模版方法模式）。
 
+此類別庫內容:
 IAvengers : 定義攻擊方法的介面
 Thor : 繼承介面實作方法的類別，為此範例的父類別
 ThorWithStormbreaker : 繼承父類別，覆寫攻擊方法，來擴充新的攻擊方法

@@ -6,6 +6,7 @@
 設計時要注意功能不能切得太細，造成過度設計(over design)
 怎麼規劃一個類別責任，要視實際情況而定。
 
+此類別庫內容:
 IRestaurantService : 未實現單一職責原則的介面
 InsideRestaurantService : 實現單一職責原則後的介面之一
 IOuterRestaurantService : 實現單一職責原則後的介面之一

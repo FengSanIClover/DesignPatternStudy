@@ -1,3 +1,4 @@
+各主控台專案內容:
 Implent 資料夾 -> Implent_SRP : 實作 單一職責原則 的範例專案
 Implent 資料夾 -> Implent_OCP : 實作 開放/封閉原則 的範例專案
 Implent 資料夾 -> Implent_LSP : 實作 里氏替換原則 的範例專案
