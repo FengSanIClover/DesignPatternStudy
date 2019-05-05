@@ -12,13 +12,8 @@ namespace DependencyInversionPrinciple
    public interface IAvengers
     {
         /// <summary>
-        /// 攻擊方法
+        /// 攻擊的方法
         /// </summary>
         void Attack();
-
-        /// <summary>
-        /// 防守方法
-        /// </summary>
-        void Defense();
     }
 }

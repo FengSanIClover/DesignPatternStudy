@@ -16,7 +16,7 @@ Dependency Injection Principle (DIP) 依賴注入原則
 但到了物件導向程式設計，需要將事物做抽象化，定義抽象類別或介面，然後再定義抽象之間的依賴關係，這就是依賴反轉。
 結合里氏替換原則：抽象化之間定義好依賴關係，再由各自的具體子類別去完成商業邏輯，達到替換子類別不會影響軟體功能。
 
-IAvengers : 設定攻擊方法和防禦方法的介面
+IAvengers : 設定攻擊方法的介面
 DoctorStrange : 繼承 IAvengers 介面並實作方法的類別
 Hulk : 繼承 IAvengers 介面並實作方法的類別
 Task : 實作 依賴反轉原則 依賴注入原則 的類別

@@ -16,15 +16,7 @@ namespace DependencyInversionPrinciple
         /// </summary>
         public void Attack()
         {
-            Console.WriteLine("浩克使用拳頭攻擊");
-        }
-
-        /// <summary>
-        /// 實作 IAvengers 防禦方法
-        /// </summary>
-        public void Defense()
-        {
-            Console.WriteLine("浩克防禦");
+            Console.WriteLine("浩克使用拳頭攻擊。\n");
         }
     }
 }

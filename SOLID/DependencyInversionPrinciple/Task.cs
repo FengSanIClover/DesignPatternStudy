@@ -37,7 +37,6 @@ namespace DependencyInversionPrinciple
 
             // 2
             this.hero.Attack();
-            this.hero.Defense();
         }
     }
 }

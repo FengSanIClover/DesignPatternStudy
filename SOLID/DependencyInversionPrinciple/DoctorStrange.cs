@@ -16,15 +16,7 @@ namespace DependencyInversionPrinciple
         /// </summary>
         public void Attack()
         {
-            Console.WriteLine("奇異博士使用魔法攻擊");
-        }
-
-        /// <summary>
-        /// 實作 IAvengers 防禦方法
-        /// </summary>
-        public void Defense()
-        {
-            Console.WriteLine("奇異博士使用了防護罩");
+            Console.WriteLine("奇異博士使用魔法攻擊。\n");
         }
     }
 }
