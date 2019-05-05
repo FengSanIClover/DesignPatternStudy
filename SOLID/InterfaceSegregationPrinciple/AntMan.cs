@@ -16,15 +16,7 @@ namespace InterfaceSegregationPrinciple
         /// </summary>
         public void Attack()
         {
-            Console.WriteLine("蟻人變大後攻擊");
-        }
-
-        /// <summary>
-        /// 實作 IAvengers 防禦方法
-        /// </summary>
-        public void Defense()
-        {
-            Console.WriteLine("蟻人縮小躲過攻擊");
+            Console.WriteLine("蟻人變大後攻擊。\n");
         }
 
         ///// <summary>

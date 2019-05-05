@@ -16,15 +16,7 @@ namespace InterfaceSegregationPrinciple
         /// </summary>
         public void Attack()
         {
-            Console.WriteLine("索爾雷神之槌攻擊");
-        }
-
-        /// <summary>
-        /// 實作 IAvengers 防禦方法
-        /// </summary>
-        public void Defense()
-        {
-            Console.WriteLine("索爾防禦");
+            Console.WriteLine("索爾使用雷神之槌攻擊。\n");
         }
 
         /// <summary>
@@ -32,7 +24,7 @@ namespace InterfaceSegregationPrinciple
         /// </summary>
         public void Fly()
         {
-            Console.WriteLine("索爾靠著雷神槌飛起來了");
+            Console.WriteLine("索爾靠著雷神槌飛起來了。\n");
         }
     }
 }

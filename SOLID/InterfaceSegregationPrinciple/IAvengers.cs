@@ -16,11 +16,6 @@ namespace InterfaceSegregationPrinciple
         /// </summary>
         void Attack();
 
-        /// <summary>
-        /// 防禦方法
-        /// </summary>
-        void Defense();
-
         ///// <summary>
         ///// 飛行方法
         ///// </summary>

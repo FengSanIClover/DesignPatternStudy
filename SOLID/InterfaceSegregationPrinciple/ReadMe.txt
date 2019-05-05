@@ -1,4 +1,4 @@
-﻿Interface Segregation Principle(ISP) 介面隔離原則
+﻿Interface Segregation Principle (ISP) 介面隔離原則
 (Clients should not be forced to depend on methods that they do not use.)
 (客戶不應該被強迫依賴他們不使用的方法)
 
@@ -8,10 +8,11 @@
 介面隔離原則與單一職責的審視角度是不相同的，單一職責要求的是類別和介面職責單一，
 注重的是職責，這是業務邏輯上的劃分，而介面隔離原則要求介面的方法儘量少。
 
-IAvengers : 設定攻擊方法和防禦方法的介面
+IAvengers : 設定攻擊方法的介面
 IFly : 運用介面隔離原則隔離出飛行方法的介面
 Thor : 繼承 IAvengers IFly 2個介面並實作方法的類別
 AntMan : 繼承 IAvengers 介面並實作方法的類別
+Implent 資料夾 -> Implent_ISP : 實作 介面隔離原則 的範例專案
 
 使用介面隔離原則的實踐
 介面功能盡量少：要避免胖介面的狀況，能拆除功能就拆，達到一個介面只服務一個子模組/商業邏輯，介面中方法應該盡量少。
