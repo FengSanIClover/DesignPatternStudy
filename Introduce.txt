@@ -10,3 +10,5 @@
 5. Dependency Inversion Principle (DIP) 依賴反轉原則
 
 6. Least Knowledge Principle (LKP) 最少知識原則(迪米特法則)
+
+Implent 資料夾: 各原則的實作專案
