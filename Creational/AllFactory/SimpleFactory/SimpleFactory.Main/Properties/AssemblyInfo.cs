@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // 組件的一般資訊是由下列的屬性集控制。
 // 變更這些屬性的值即可修改組件的相關
 // 資訊。
-[assembly: AssemblyTitle("FactoryMethodPattern.Main")]
+[assembly: AssemblyTitle("SimpleFactory.Main")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("FactoryMethodPattern.Main")]
+[assembly: AssemblyProduct("SimpleFactory.Main")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // 下列 GUID 為專案公開 (Expose) 至 COM 時所要使用的 typelib ID
-[assembly: Guid("f3c9e09c-f611-4fb1-95d8-bdce28de2353")]
+[assembly: Guid("9d50ef97-284b-4cbc-9a1d-663fae9eabb2")]
 
 // 組件的版本資訊由下列四個值所組成: 
 //

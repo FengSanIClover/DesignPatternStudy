@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F3C9E09C-F611-4FB1-95D8-BDCE28DE2353}</ProjectGuid>
+    <ProjectGuid>{9D50EF97-284B-4CBC-9A1D-663FAE9EABB2}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>FactoryMethodPattern.Main</RootNamespace>
-    <AssemblyName>FactoryMethodPattern.Main</AssemblyName>
+    <RootNamespace>SimpleFactory.Main</RootNamespace>
+    <AssemblyName>SimpleFactory.Main</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,11 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\Class\CapsuleToyMachine.cs" />
+    <Compile Include="Models\Class\MachineLunchDrink.cs" />
+    <Compile Include="Models\Class\MachineLunchFood.cs" />
+    <Compile Include="Models\Interfaces\ICapsuleToyMachine.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ReadMe.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
