@@ -1,11 +1,11 @@
-﻿using SimpleFactory.Main.Models.Interfaces;
+﻿using SimpleFactory.Main.Modules.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SimpleFactory.Main.Models.Class
+namespace SimpleFactory.Main.Modules.Class
 {
     /// <summary>
     /// 中午覓食機-飲料店(內有 二芳水果茶、六十嵐、夏陽茶事、麻吉、龜小方)，

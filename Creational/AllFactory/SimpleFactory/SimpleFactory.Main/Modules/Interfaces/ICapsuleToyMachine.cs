@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SimpleFactory.Main.Models.Interfaces
+namespace SimpleFactory.Main.Modules.Interfaces
 {
     /// <summary>
     /// 扭蛋機介面

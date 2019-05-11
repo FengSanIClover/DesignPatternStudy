@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SimpleFactory.Main.Models.Class
+namespace SimpleFactory.Main.Modules.Class
 {
     /// <summary>
     /// 扭蛋機類別

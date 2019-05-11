@@ -43,10 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Models\Class\CapsuleToyMachine.cs" />
-    <Compile Include="Models\Class\MachineLunchDrink.cs" />
-    <Compile Include="Models\Class\MachineLunchFood.cs" />
-    <Compile Include="Models\Interfaces\ICapsuleToyMachine.cs" />
+    <Compile Include="Modules\Class\CapsuleToyMachine.cs" />
+    <Compile Include="Modules\Class\MachineLunchDrink.cs" />
+    <Compile Include="Modules\Class\MachineLunchFood.cs" />
+    <Compile Include="Modules\Interfaces\ICapsuleToyMachine.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

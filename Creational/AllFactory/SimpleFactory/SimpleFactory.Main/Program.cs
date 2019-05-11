@@ -1,5 +1,5 @@
-﻿using SimpleFactory.Main.Models.Class;
-using SimpleFactory.Main.Models.Interfaces;
+﻿using SimpleFactory.Main.Modules.Class;
+using SimpleFactory.Main.Modules.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;

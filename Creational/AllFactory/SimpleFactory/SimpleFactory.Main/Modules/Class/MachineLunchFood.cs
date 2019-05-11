@@ -1,11 +1,11 @@
-﻿using SimpleFactory.Main.Models.Interfaces;
+﻿using SimpleFactory.Main.Modules.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SimpleFactory.Main.Models.Class
+namespace SimpleFactory.Main.Modules.Class
 {
     /// <summary>
     /// 中午覓食機-食物(內有 大學日燒肉丼食堂、真好吃燒腊、18廚房、二前二町拉麵、南方水餃)，
