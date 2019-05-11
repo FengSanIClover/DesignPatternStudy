@@ -50,6 +50,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SimpleFactory", "SimpleFact
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleFactory.Main", "Creational\AllFactory\SimpleFactory\SimpleFactory.Main\SimpleFactory.Main.csproj", "{9D50EF97-284B-4CBC-9A1D-663FAE9EABB2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Factory", "Factory", "{788B6235-6432-4D4B-8D54-0701F5FD3535}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory.Main", "Creational\AllFactory\Factory\Factory.Main\Factory.Main.csproj", "{B1AFB35D-0C35-492B-89DC-32A89C575B9E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -108,6 +112,10 @@ Global
 		{9D50EF97-284B-4CBC-9A1D-663FAE9EABB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D50EF97-284B-4CBC-9A1D-663FAE9EABB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D50EF97-284B-4CBC-9A1D-663FAE9EABB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1AFB35D-0C35-492B-89DC-32A89C575B9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1AFB35D-0C35-492B-89DC-32A89C575B9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1AFB35D-0C35-492B-89DC-32A89C575B9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1AFB35D-0C35-492B-89DC-32A89C575B9E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -129,6 +137,8 @@ Global
 		{2C7A6EBD-4C14-4A7F-91F0-BA7031FD5EE3} = {00DC8BDB-315C-4601-B950-633B3DD55D03}
 		{E20EAA2E-1D36-4F26-ADCD-4B4BAACEAAAF} = {2C7A6EBD-4C14-4A7F-91F0-BA7031FD5EE3}
 		{9D50EF97-284B-4CBC-9A1D-663FAE9EABB2} = {E20EAA2E-1D36-4F26-ADCD-4B4BAACEAAAF}
+		{788B6235-6432-4D4B-8D54-0701F5FD3535} = {2C7A6EBD-4C14-4A7F-91F0-BA7031FD5EE3}
+		{B1AFB35D-0C35-492B-89DC-32A89C575B9E} = {788B6235-6432-4D4B-8D54-0701F5FD3535}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {51D62FA9-26CD-4A9E-BF5B-D3A20D4F8892}
