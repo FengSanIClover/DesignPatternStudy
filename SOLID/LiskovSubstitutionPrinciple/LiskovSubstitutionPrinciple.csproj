@@ -48,6 +48,7 @@
     <Compile Include="Task.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="LSP_UML.jpg" />
     <Content Include="ReadMe.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
