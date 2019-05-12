@@ -47,6 +47,7 @@
     <Compile Include="ThorWithStormbreaker.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="OCP_UML.jpg" />
     <Content Include="ReadMe.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
