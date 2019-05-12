@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Modules\Class\CapsuleToyMachine.cs" />
+    <Compile Include="Modules\Class\CapsuleToyMachineFactory.cs" />
     <Compile Include="Modules\Class\MachineLunchDrink.cs" />
     <Compile Include="Modules\Class\MachineLunchFood.cs" />
     <Compile Include="Modules\Interfaces\ICapsuleToyMachine.cs" />

@@ -120,21 +120,11 @@ namespace SimpleFactory.Main
                     Console.Write("請輸入:");
                     var choice = Console.ReadLine();
 
-                    ICapsuleToyMachine machine;
-                    switch (choice)
+                    result = CapsuleToyMachineFactory.GetCapsuleToyMachineResult(choice);
+                    if (result == string.Empty)
                     {
-                        case "1":
-                            machine = new MachineLunchFood();
-                            result = machine.TurnHandle();
-                            break;
-                        case "2":
-                            machine = new MachineLunchDrink();
-                            result = machine.TurnHandle();
-                            break;
-                        default:
-                            Console.WriteLine("結束範例");
-                            Console.Read();
-                            return;
+                        Console.Read();
+                        return;
                     }
 
                     Console.WriteLine(result);
