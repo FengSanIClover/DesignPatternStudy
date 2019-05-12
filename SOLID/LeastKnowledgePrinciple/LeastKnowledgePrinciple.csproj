@@ -47,6 +47,7 @@
     <Compile Include="Waiter.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="LKP_UML.jpg" />
     <Content Include="ReadMe.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
