@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace InterfaceSegregationPrinciple
 {
     /// <summary>
-    /// 運用介面隔離出特定方法
+    /// 定義飛行方法的介面，運用介面隔離出特定方法
     /// </summary>
    public interface IFly
     {

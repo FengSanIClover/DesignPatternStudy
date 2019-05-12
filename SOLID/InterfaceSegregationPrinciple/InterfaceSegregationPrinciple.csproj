@@ -49,6 +49,7 @@
     <Compile Include="Thor.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ISP_UML.jpg" />
     <Content Include="ReadMe.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
